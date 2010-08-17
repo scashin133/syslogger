@@ -7,9 +7,9 @@ begin
     gem.name = "syslogger"
     gem.summary = %Q{Dead simple Ruby Syslog logger}
     gem.description = %Q{Same as SyslogLogger, but without the ridiculous number of dependencies and with the possibility to specify the syslog facility}
-    gem.email = "cyril.rohr@gmail.com"
-    gem.homepage = "http://github.com/crohr/syslogger"
-    gem.authors = ["Cyril Rohr"]
+    gem.email = "scashin133@gmail.com"
+    gem.homepage = "http://github.com/scashin133/syslogger"
+    gem.authors = ["Cyril Rohr","Sean Cashin"]
     gem.add_development_dependency "rspec", ">= 0"
     # gem is a Gem::Specification... see http://www.rubygems.org/read/chapter/20 for additional settings
   end

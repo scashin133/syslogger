@@ -19,6 +19,10 @@ Contrary to the SyslogLogger library, you can specify the facility and the syslo
   logger.info "will appear"
   logger.warn "will appear"
 
+== Fork
+
+  This fork was made to create a drop in replacement for ruby's Logger.
+
 == Copyright
 
 Copyright (c) 2010 Cyril, INRIA Rennes-Bretagne Atlantique. See LICENSE for details.
