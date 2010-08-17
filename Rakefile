@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "syslogger"
+    gem.name = "scashin133-syslogger"
     gem.summary = %Q{Dead simple Ruby Syslog logger}
     gem.description = %Q{Same as SyslogLogger, but without the ridiculous number of dependencies and with the possibility to specify the syslog facility}
     gem.email = "scashin133@gmail.com"
