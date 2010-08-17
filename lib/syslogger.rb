@@ -47,8 +47,8 @@ class Syslogger
     define_method logger_method.to_sym do |message|
       add(Logger.const_get(logger_method.upcase), message)
     end
-    define_method "#{logger_method}?".to_sym do |message|
-      @level <= MAPPING[Logger.const_get(logger_method.upcase)]
+    define_method "#{logger_method}?".to_sym do
+      @level <= Logger.const_get(logger_method.upcase)
     end
   end
   

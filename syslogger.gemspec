@@ -5,13 +5,13 @@
 
 Gem::Specification.new do |s|
   s.name = %q{syslogger}
-  s.version = "1.2.0"
+  s.version = "1.3.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Cyril Rohr"]
-  s.date = %q{2010-03-10}
+  s.authors = ["Cyril Rohr", "Sean Cashin"]
+  s.date = %q{2010-08-17}
   s.description = %q{Same as SyslogLogger, but without the ridiculous number of dependencies and with the possibility to specify the syslog facility}
-  s.email = %q{cyril.rohr@gmail.com}
+  s.email = %q{scashin133@gmail.com}
   s.extra_rdoc_files = [
     "LICENSE",
      "README.rdoc"
@@ -28,10 +28,10 @@ Gem::Specification.new do |s|
      "spec/syslogger_spec.rb",
      "syslogger.gemspec"
   ]
-  s.homepage = %q{http://github.com/crohr/syslogger}
+  s.homepage = %q{http://github.com/scashin133/syslogger}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
-  s.rubygems_version = %q{1.3.5}
+  s.rubygems_version = %q{1.3.7}
   s.summary = %q{Dead simple Ruby Syslog logger}
   s.test_files = [
     "spec/spec_helper.rb",
@@ -42,7 +42,7 @@ Gem::Specification.new do |s|
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION
     s.specification_version = 3
 
-    if Gem::Version.new(Gem::RubyGemsVersion) >= Gem::Version.new('1.2.0') then
+    if Gem::Version.new(Gem::VERSION) >= Gem::Version.new('1.2.0') then
       s.add_development_dependency(%q<rspec>, [">= 0"])
     else
       s.add_dependency(%q<rspec>, [">= 0"])
